@@ -1,0 +1,76 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Logs and env
+*.log
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/api/.env
+frontend/.env
+infra/.env
+
+# Node.js / frontend
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Java / backend
+target/
+*.class
+*.jar
+.gradle/
+
+# Maven wrapper cache
+.mvn/wrapper/maven-wrapper.jar
+
+# Database files and locks
+backend/api/localdb.lock.db
+backend/api/localdb.mv.db
+*.db
+*.db.*
+
+# Uploads and runtime artifacts
+backend/uploads/
+uploads/
+/specs/006-feat-pamali-facilities-core
+/specs/014-feat-pamali-facilities-optimization-ui
+
+# Sensitive files
+TEST_CREDENTIALS.md
+test_attachment.ps1
+testoutput.txt
+
+# Internal test/debug docs (keep in repo but consider archiving)
+# These are development/testing notes that shouldn't be in final release
+BOOKING_TEST_GUIDE.md
+NOTIFICATION_TESTING_PLAN.md
+TESTING_PLAN.md
+TEST_FILES_CREATED_SUMMARY.md
+QUICK_START_CHECKLIST.md
+bugs.md
+FIXES_SUMMARY.md
+FIXES_TECHNICAL_REFERENCE.md
+
+# Status reports and verification documents
+MODULE_C_VERIFICATION_REPORT.md
+T088_COMPLETION_SUMMARY.md
+T088_VALIDATION_REPORT.md
+SUSPENSION_APPEALS_ASSESSMENT.md
+SUSPENSION_APPEALS_COMPLETE.md
+SUSPENSION_APPEALS_STATUS.md
+TICKET_BACKEND_FRONTEND_AUDIT.md
+TICKET_FIXES_SUMMARY.md
+TICKET_IMPLEMENTATION_STATUS.md
+
+# Non-project files
+*.html
+render_diagram.py
