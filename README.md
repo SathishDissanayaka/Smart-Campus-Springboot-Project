@@ -231,7 +231,7 @@ See [`QUICK_START_CHECKLIST.md`](./QUICK_START_CHECKLIST.md) · [`DB_SETUP_AND_T
 
 ## 👥 Team
 
-Developed as a group project for the **SLIIT Professional Advancement Framework (PAF)** program.
+Developed as a group project for the ** SLIIT Programming Application Framework (PAF)** Module.
 
 **Contributing:**
 ```bash
